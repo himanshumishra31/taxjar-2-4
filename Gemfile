@@ -44,5 +44,4 @@ gem 'spree_taxjar', path: 'vendor/spree-taxjar-2-4-stable'
 # gem 'capistrano-rails', group: :development
 
 # Use debugger
-# gem 'debugger', group: [:development, :test]
-
+gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

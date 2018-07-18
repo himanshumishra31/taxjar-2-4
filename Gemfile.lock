@@ -74,6 +74,7 @@ GEM
       activerecord (>= 4.0.0, < 5)
     bcrypt (3.1.12)
     builder (3.2.3)
+    byebug (10.0.2)
     camertron-eprun (1.1.1)
     cancancan (1.9.2)
     canonical-rails (0.0.11)
@@ -344,6 +345,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  byebug
   coffee-rails (~> 4.0.0)
   jbuilder (~> 2.0)
   jquery-rails
