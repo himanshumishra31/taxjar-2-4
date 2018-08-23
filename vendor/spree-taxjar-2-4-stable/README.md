@@ -13,17 +13,9 @@ Spree::Taxjar is a sales tax extension for Spree using [SmartCalcs by TaxJar](ht
 
 Demo
 -----------------------------------
-Try Spree Taxjar for Spree Master with direct deployment on Heroku:
+Try Spree Taxjar for Spree 2-4 with direct deployment on Heroku:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/vinsol-spree-contrib/spree-demo-heroku/tree/spree-taxjar-master)
-
-Try Spree Taxjar for Spree 3-4 with direct deployment on Heroku:
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/vinsol-spree-contrib/spree-demo-heroku/tree/spree-taxjar)
-
-Try Spree Taxjar for Spree 3-1 with direct deployment on Heroku:
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/vinsol-spree-contrib/spree-demo-heroku/tree/spree-taxjar-3-1)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/himanshumishra31/taxjar-2-4)
 
  *NOTE**: Don't forget to create a taxjar account and update the key in your admin section && Update tax rates to Spree/Taxjar calculator.
 
@@ -32,10 +24,8 @@ Try Spree Taxjar for Spree 3-1 with direct deployment on Heroku:
 1. Add this extension to your Gemfile with this line:
 
   ```ruby
-  gem 'spree_taxjar', github: 'vinsol-spree-contrib/spree_taxjar'
+  gem 'spree_taxjar', github: 'vinsol/spree-taxjar', branch: '2-4-stable'
   ```
-
-  **Note** For spree 3-1 use `3-1-stable` branch. For spree version > 3-1 use `master` branch.
 
 2. Install the gem using Bundler:
 
